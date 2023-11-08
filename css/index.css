@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Cardo', serif;
+}
+
+
+:root{
+    --color1: #ffffff;
+    --color2: #e74545;
+    --color3: #2d3033;
+    --color4: #6b7178;
+    --color5: #c5c9cb;
+    --color6: #393d63;
+    --color7: #313353;
+}
+
+.master_part{
+    min-height: 100vh;
+    background-image: url(../Image/04-ActiveBox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color1) !important;
+}
+
+.nav-link:hover{
+    color: var(--color2) !important;
+    transition: .6s;
+}
+.hero-con h1{
+    color: var(--color1);
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.hero-con p{
+    color: var(--color1);
+    font-size: 22px;
+}
+
+.hero-con a{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 800;
+    height: 50px;
+    width: 200px;
+    background-color: var(--color2);
+    color: var(--color1);
+    border-color: #e74545;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.hero-con a:hover{
+    background-color: #BEADFA;
+    color: var(--color1);
+    border-color: var(--color2);
+}
+
+
+/*  ==== Feature_part style start here ===== */
+
+.feature_part{
+    background-color: var(--color1);
+}
+
+.feature_con h5{
+    font-size: 14px;
+    color: var(--color3);
+    text-transform: uppercase;
+}
+
+.feature_con p{
+    font-size: 13px;
+    color: var(--color4);
+}
+/*  ==== Feature_part style end here ===== */
+
+
+/*  ==== Work_part style start here ===== */
+
+.work_con_main .overlay{
+    background-color: rgba(7,110,103,.90);
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.work_con_main:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.work_con .overlay h3{
+    font-size: 14px;
+    color: var(--color1);
+    text-transform: uppercase;
+}
+
+.work_con .overlay p{
+    font-size: 13px;
+    color: var(--color1);
+}
+
+.overlay a i{
+    font-size: 22px;
+    color: var(--color1);
+}
+
+/*  ==== Work_part style end here ===== */
+
+/*  ==== Team_part style start here ===== */
+
+.team_con h3{
+    font-size: 22px;
+    color: var(--color3);
+}
+
+.team_con h4{
+    font-size: 16px;
+    color: var(--color2);
+}
+
+.team_con p{
+    font-size: 14px;
+    color: var(--color4);
+}
+
+.team_con .icon_part a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 2px solid var(--color5);
+    border-radius: 5px;
+    transition: all .4s;
+}
+
+.team_con .icon_part a:hover{
+    background-color: var(--color5);
+}
+
+.team_con .icon_part a:hover i{
+    color: var(--color1);
+}
+
+.team_con .icon_part a i{
+    font-size: 20px;
+    color: var(--color5);
+}
+
+.team_con{
+    transition: .4s;
+}
+.team_con_main .team_con:hover{
+    box-shadow: 0 0 16px rgba(0, 0, 0, .60) ;
+
+}
+
+/*  ==== Team-part style end here ===== */
+
+
+/*  ==== carousel_part style start here ===== */
+
+.carousel-item{
+    width: 100%;
+    padding: 100px 30px 0px 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.carousel-item h2{
+    font-size: 36px;
+    color: var(--color1);
+}
+
+.carousel-indicators button{
+    height: 20px !important;
+    width: 20px !important;
+    background-color: var(--color5);  
+    border-radius: 50%;  
+}
+
+.carousel-inner .item_1{
+    background-color: #008170;
+}
+.carousel-inner .item_2{
+    background-color: #005B41;
+}
+.carousel-inner .item_3{
+    background-color: #232D3F;
+}
+.carousel-inner .item_4{
+    background-color: #A7D397;
+}
+.carousel-inner .item_5{
+    background-color: #BEADFA;
+}
+
+/*  ==== carousel_part style end here ===== */
+
+
+
+/*  ==== Download_part style start here ===== */
+
+.download_part h3{
+    font-size: 28px;
+    color: var(--color3);
+}
+
+.download_part p{
+    font-size: 13px;
+    color: var(--color3);
+}
+
+.download_part a{
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color1);
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all .6s;
+}
+
+.download_part a:hover{
+    background-color: #BEADFA;
+}
+
+/*  ==== carousel_part style end here ===== */
+
+
+.pre_footer_part{
+    background-color: var(--color6);
+}
+
+
+
+.pre_footer_con h3{
+    color: var(--color1);
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.pre_footer_con p{
+    color: var(--color5);
+    font-size: 14px;
+}
+
+.pre_footer_con .location{
+    text-align: center;
+    padding: 0px 80px;
+}
+
+.pre_footer_con .icon_part i{
+    color: var(--color1);
+    font-size: 22px;
+}
+.pre_footer_con .icon_part a{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    transition: .6s;
+}
+
+.pre_footer_con .icon_part a:hover{
+    background-color: var(--color4);
+    border-color: var(--color4);
+}
+
+.footer_part{
+    background-color: var(--color7);
+}
+
+.footer_part p{
+    color: var(--color4);
+    text-align: center;
+    font-size: 14px;
+}
+
+.Y{
+    color: var(--color2);
+}
+
+.name{
+    color: var(--color1);
+}
+.name a{
+    color: var(--color1) !important;
+}
+
