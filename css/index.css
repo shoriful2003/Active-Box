@@ -101,7 +101,9 @@ h2{
 
 
 /*  ==== Work_part style start here ===== */
-
+#work_part{
+    overflow: hidden;
+}
 .work_con_main .overlay{
     background-color: rgba(7,110,103,.90);
     top: 0;
