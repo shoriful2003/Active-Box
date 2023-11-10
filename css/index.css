@@ -101,7 +101,7 @@ h2{
 
 
 /*  ==== Work_part style start here ===== */
-#work_part{
+.work_part{
     overflow: hidden;
 }
 .work_con_main .overlay{
